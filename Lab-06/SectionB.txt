@@ -1,0 +1,52 @@
+# 1
+d = {"a": 1, "b": 2}
+d2 = d
+d2["c"] = 3
+print(len(d))
+
+Output: 3
+Explanation: d2 = d creates a reference to the same dictionary object, so modifying d2 also modifies d.
+
+# 2
+d = {"x": [1]}
+e = d.copy()
+e["x"].append(2)
+print(d)
+Output: {'x': [1, 2]}
+Explanation: .copy() creates a shallow copy. The inner list [1] is shared between d and e, so appending 2 via e modifies the list inside d as well.
+
+# 3
+print({k: v for k, v in zip("abc", range(3)) if v})
+Output: {'b': 1, 'c': 2}
+Explanation: zip pairs characters with numbers ('a': 0, 'b': 1, 'c': 2). The condition if filter v drops 'a': 0 because 0 is falsy.
+
+# 4
+d = {"a": 1}
+print(d.setdefault("a", 9), d.setdefault("b", 5), d)
+Output: 1 5 {'a': 1, 'b': 5}
+Explanation: setdefault("a", 9) finds "a" and returns its current value (1) without changing it. setdefault("b", 5) inserts "b": 5 and returns 5.
+
+# 5
+d = {1: "a", 1.0: "b", True: "c"}
+print(d, len(d))
+Output: {1: 'c'} 1
+Explanation: In Python, 1 == 1.0 == True and they share the same hash value. Later assignments overwrite the value of the existing key while keeping the original key (1), resulting in a length of 1.
+
+# 6
+d = {"a": 1, "b": 2, "c": 3}
+for k in d:
+    if d[k] == 2:
+        del d[k]
+Output: RuntimeError: dictionary changed size during iteration
+Explanation: Mutating a dictionary (deleting keys using del) while iterating directly over its keys throws a runtime error in Python.
+
+# 7
+d = {"a": 1, "b": 2}
+print(d.pop("z", None), d.popitem())
+Output: None ('b', 2)
+Explanation: d.pop("z", None) returns None because "z" doesn't exist. d.popitem() removes and returns the last inserted item (('b', 2)).
+
+# 8
+print({v: k for k, v in {"a": 1, "b": 1}.items()})
+Output: {1: 'b'}
+Explanation: Both keys map to the value 1. The comprehension processes 'a': 1 first (yielding {1: 'a'}) and then overwrites it with 'b': 1 when processing 'b'.
