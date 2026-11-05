@@ -1,0 +1,23 @@
+1) print(2 + 3 * 4 - 1)                  Your answer: _13_. ✔
+
+2) print(10 % 3 + 2 ** 2)             Your answer: _5_ ✔
+
+3) print((5 + 3) / 2 == 4)             Your answer: _True_ ✔
+
+4) print(type(5 / 2))                     Your answer: _<class 'float'>_ ✔
+
+5) print("Python"[1:4])                 Your answer: _yth_ ✔
+
+6) print("Hi\tThere\nBye")           
+    -> Your answer: Hi	There
+   		    Bye.  ✔
+
+Output of program : 
+# (base) ak_junior@Jays-MacBook-Air Lab-01 % python SectionB.py 
+# 13
+# 5
+# True
+# <class 'float'>
+# yth
+# Hi	There
+# Bye

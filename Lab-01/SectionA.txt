@@ -1,0 +1,14 @@
+1. input() always returns data of type "_string(str)_".
+
+2. The function used to check the data type of a variable is "_type()_".
+
+3. Convert a string to an integer using the "_int()_" function, and to a float using the "_float()_" function.
+
+3. In Python, ** is the operator for _exponentiation (power)_, and // is the operator for "_floor division_"
+
+4. % is called the "_modulus_" operator. It gives the "_remainder_".
+
+5. A single line comment in Python starts with the symbol "_#_".
+
+6. Write one rule for naming a variable in Python (something that is not allowed).
+   -> A variable name cannot start with a digi
