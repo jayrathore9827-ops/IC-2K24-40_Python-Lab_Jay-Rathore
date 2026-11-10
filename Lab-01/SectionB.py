@@ -5,7 +5,7 @@ print(type(5 / 2))
 print("Python"[1:4])                 
 print("Hi\tThere\nBye")           
 
-# (base) ak_junior@Jays-MacBook-Air Lab-01 % python SectionB.py 
+# (base) Jay Lab-01 % python SectionB.py 
 # 13
 # 5
 # True
