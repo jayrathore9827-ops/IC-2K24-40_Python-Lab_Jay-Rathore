@@ -9,6 +9,6 @@ f = (temp_c * (9/5) + 32)
 print("The temperature in Fahrenheit is : ",f)
 
 
-#(base) ak_junior@Jays-MacBook-Air Lab-01 % python CelsiustoFahrenheit.py
+#(base) Jays Lab-01 % python CelsiustoFahrenheit.py
 #Enter the temperature please : 30
 #The temperature in Fahrenheit is :  86.0
