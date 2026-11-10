@@ -243,22 +243,22 @@ Enter your choice (1-6): 5
 
 1. Average Marks of Every Student:
    Roll 101 (Jay) -> 83.33
-   Roll 102 (Khush) -> 79.67
-   Roll 103 (Harshil) -> 83.33
+   Roll 102 (Dhruv) -> 79.67
+   Roll 103 (Ayush) -> 83.33
 
 2. Topper: Jay (Roll: 101, Average: 83.33)
 
 3. Highest Scorer in Each Subject:
-   Chem -> Khush (99)
+   Chem -> Dhruv (99)
    Math -> Jay (90)
-   Phy -> Harshil (80)
+   Phy -> Ayush (80)
 
 4. Students Scoring Below 40 in At Least One Subject:
    None
 
 5. Grade-wise Grouping (Based on Average Marks):
    Grade A: None
-   Grade B: ['Jay', 'Khush', 'Harshil']
+   Grade B: ['Jay', 'Dhruv', 'Ayush']
    Grade C: None
    Grade D: None
    Grade F: None
