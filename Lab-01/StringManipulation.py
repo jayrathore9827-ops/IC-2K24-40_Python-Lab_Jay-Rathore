@@ -8,7 +8,7 @@ print("In Lower case : ",name.lower())
 print("Reversed : ",name[::-1])
 print("Total Length : ",len(name))
 
-#(base) ak_junior@Jays-MacBook-Air Lab-01 % python StringManipulation.py 
+#(base) Jay Lab-01 % python StringManipulation.py 
 #Enter your full name : Jay Rathore
 #In Upper case :  AISHWARYA KUMAR SINGH
 #In Lower case :  aishwarya kumar singh
