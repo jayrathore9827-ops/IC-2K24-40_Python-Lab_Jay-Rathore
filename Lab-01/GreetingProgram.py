@@ -10,7 +10,7 @@ print(f"Greetings to Mr.{name}. You entered your age {age} years old and you bel
 
 
 # o/p : 
-#(base) ak_junior@Jays-MacBook-Air Lab-01 % python GreetingProgram.py 
+#(base) Jay Lab 01 % python GreetingProgram.py 
 #Please Enter your name : Rahul
 #Enter your Age Please : 21
 #Enter your City Please : Bhopal
