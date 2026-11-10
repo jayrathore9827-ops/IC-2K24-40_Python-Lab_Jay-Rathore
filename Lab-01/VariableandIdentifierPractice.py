@@ -13,6 +13,6 @@ print("Height : ",height,type(height))
 print("Whether Student : ",isStudent,type(isStudent))
 
 # o/p :
-#(base) ak_junior@Jays-MacBook-Air Lab-01 % python VariableandIdentifierPractice.py
+#(base) Jay Lab-01 % python VariableandIdentifierPractice.py
 #Name :  Jay Rathore <class 'str'>
 #Whether Student :  True <class 'bool'>
