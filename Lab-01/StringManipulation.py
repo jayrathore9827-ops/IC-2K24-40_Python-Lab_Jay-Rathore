@@ -10,7 +10,7 @@ print("Total Length : ",len(name))
 
 #(base) Jay Lab-01 % python StringManipulation.py 
 #Enter your full name : Jay Rathore
-#In Upper case :  AISHWARYA KUMAR SINGH
-#In Lower case :  aishwarya kumar singh
-#Reversed :  hgniS ramuK ayrawhsiA
+#In Upper case :  JAY RATHORE
+#In Lower case :  jay rathore
+#Reversed :  erohtar yaj
 #Total Length :  21
