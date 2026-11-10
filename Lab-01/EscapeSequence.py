@@ -9,7 +9,7 @@ print("Mouse\t\t499\t\t449\n")
 print("Monitor\t\t10,000\t\t9,499\n")
 
 
-#(base) ak_junior@Jays-MacBook-Air Lab-01 % python EscapeSequence.py
+#(base) Jay Lab-01 % python EscapeSequence.py
 #Item Name	MRP	    Billing Price
 
 #Keyboard	899		    749
