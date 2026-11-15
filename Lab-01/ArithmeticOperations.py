@@ -12,7 +12,7 @@ else:
 	print("Quotient = ",a/b)
 	print("Remainder = ",a%b)
 
-# output : 
+# output: 
 #Jay python ArithmeticOperations.py 
 #Enter the First Number : 2
 #Enter the Second Number : 2
