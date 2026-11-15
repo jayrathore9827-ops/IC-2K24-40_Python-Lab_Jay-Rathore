@@ -21,8 +21,6 @@ def has_duplicate(arr):
 
 Time complexity: O(n²) Space Complexity: O(1).  Justify: The inner loop runs the entire array once more for each iteration of the outer loop, which means there is a loop within a loop, giving us the typical O(n²) complexity. No new data structures are used, making space complexity constant
 
-
-
 Snippet 3
 def sum_digits(n):
     if n == 0:
@@ -81,17 +79,6 @@ def to_sparse(matrix):
 
 Time complexity (in terms of matrix dimensions m and n): O(m·n) Space: O(k). Justify: We have to check every single cell in the matrix once to see if it's non-zero, and the matrix has m rows and n columns, so that's m×n checks no matter what. But we only actually store something when we find a non-zero value, so the space used depends on k, the number of non-zero entries, not the full matrix size.
 
-
-
-
-
-
-
-
-
-
-
-
 Snippet 8
 def process(arr):
     n = len(arr)
@@ -112,6 +99,7 @@ def check_first_ten(arr):
     return False
 
 Time complexity: O(n) Explanation: The inner for-loop always iterates 10 times regardless of the size of the array – which makes it a constant time operation. The total time complexity therefore only comes from the outer for-loop which leads to O(n).
+
 Snippet 10
 def reverse_new(arr):
     reversed_arr = []
@@ -120,7 +108,6 @@ def reverse_new(arr):
     return reversed_arr
 
 Time complexity:O(n) Space: O(n) Justify: We iterate through the array only once, adding each element to a new list, making the time complexity increase linearly with n. Since we are creating a new list from scratch and not using the old one, space complexity increases linearly as well.
-
 
 Snippet 11
 def reverse_in_place(arr):
@@ -204,13 +191,6 @@ def flatten(matrix):
 
 Time complexity (in terms of m rows and n columns):O(m·n) Space: O(m·n) Justify: We iterate through each and every value in each and every row, which means there are a total of m×n values with m rows and n columns, so time will be based on both of them together. And we’re creating a list by copying all of these values, so space will also be m×n.
 
-
-
-
-
-
-
-
 Snippet 19
 def power(base, exp):
     if exp == 0:
@@ -218,6 +198,7 @@ def power(base, exp):
     return base * power(base, exp - 1)
 
 Time complexity:O(n) Space: O(n) Justify: As the function continues to call itself, exp is continually reduced by 1 until exp = 0; therefore, n calls are made and it runs in linear time. As each call to the function is waiting in the stack for the previous call to complete, stack depth is O(n).
+
 Snippet 20
 def fast_power(base, exp):
     if exp == 0:
@@ -228,6 +209,7 @@ def fast_power(base, exp):
     return half * half * base
 
 Time complexity:O(log n) Space: O(log n) Justify: In this case, instead of decreasing the exponent by one at each step, it decreases it by a factor of two, requiring significantly fewer iterations, in the order of log n. As it is a recursive algorithm, its space complexity equals the depth of the recursion stack, which is the number of iterations.
+
 Snippet 21
 def has_common_element(a, b):
     for x in a:
