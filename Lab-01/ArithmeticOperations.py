@@ -13,11 +13,11 @@ else:
 	print("Remainder = ",a%b)
 
 # output : 
-#Jay Lab-01 % python ArithmeticOperations.py 
-#Enter the First Number : 12
-#Enter the Second Number : 4
-#Sum =  16.0
-#Diffrence =  8.0
-#Product =  48.0
-#Quotient =  3.0
+#Jay python ArithmeticOperations.py 
+#Enter the First Number : 2
+#Enter the Second Number : 2
+#Sum =  4.0
+#Diffrence =  0.0
+#Product =  4.0
+#Quotient =  1.0
 #Remainder =  0.0
