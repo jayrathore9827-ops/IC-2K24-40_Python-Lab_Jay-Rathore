@@ -1,3 +1,5 @@
+#create a working calculator
+
 while True:
     print("\n--- Calculator Menu ---\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit")
     choice = input("Select an option (1-5): ")
